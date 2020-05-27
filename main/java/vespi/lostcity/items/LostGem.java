@@ -32,7 +32,7 @@ public class LostGem extends Item {
                         playerIn.changeDimension(ModDimensions.DIMENSION_TYPE);
                     }
                 } else {
-                    playerIn.sendMessage(new StringTextComponent("The Soul seems to pull you toward the water... but not much else happens"));
+                    playerIn.sendMessage(new StringTextComponent("The Gem seems to pull you toward the water... but not much else happens"));
                 }
             }
             return new ActionResult<>(ActionResultType.SUCCESS, playerIn.getHeldItem(handIn));
